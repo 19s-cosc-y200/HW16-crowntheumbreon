@@ -1,0 +1,53 @@
+/* Project Name: HW 16
+Author: Kay Gilman
+Date Last Modified: 4/04/2019 */
+
+body{ background: no-repeat center center fixed; background-size: cover;}
+
+#home{background-image:url(images/ben-konfrst-1139809-unsplash.jpg);}
+
+#about{background-image: url(images/alice-fiskind-354218-unsplash.jpg); }
+
+#contact{background-image: url(images/brian-chan-12168-unsplash.jpg);}
+
+#gallery{background-image: url(images/gaby-dyson-724763-unsplash.jpg)}
+
+#menu{background-image: url(images/jacob-schwartz-550545-unsplash.jpg)}
+
+.container{ width: 80%; min-width: 900px; max-width: 1280px; margin-right: auto; margin-left: auto; margin-top: auto; margin-bottom: auto;}
+
+main{background-image: url(images/ep_naturalwhite.png);background-repeat: repeat; box-shadow: 10px 10px 8px #888888;}
+
+header{background-color: #333;}
+
+h1 {color: white; font-family: arial; font-weight: bold;}
+
+h2{font-family: arial; font-weight: bold;}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+footer{font-size: small; font-style: italic; text-align: center; color:white; }
+
+img{float: left; height: 100px; width: 100px;}
